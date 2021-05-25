@@ -1,12 +1,16 @@
 # RockPaperScissor-Game
-A Rock Paper Scissor game made to play as Player1 with Computer(Bpt) as Player 2
+A Rock Paper Scissor game made to play as Player1 with Computer(Bot) as Player 2
 
 ---
 
 Tech Stack: 
--HTML, 
--CSS, 
+
+-HTML
+
+-CSS 
+
 -JavaScript(majorly) 
+
 -Bootstrap4
 
 
