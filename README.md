@@ -33,9 +33,10 @@ Tie`
 
 ![](images/Screenshot3.png)
  
-Also, option to play again
+Also, user gets option to play again
 
-Tech Stack: 
+
+### Tech Stack: 
 
 -HTML5
 
