@@ -27,17 +27,19 @@ Tie`
 ### On choosing one of the three: 
 
 
-#### Result:
+#### Result displayed:
 
 ![](images/Screenshot2.png)
 
 ![](images/Screenshot3.png)
+ 
+Also, option to play again
 
 Tech Stack: 
 
--HTML
+-HTML5
 
--CSS 
+-CSS3
 
 -JavaScript (majorly) 
 
