@@ -6,7 +6,12 @@ You lost or
 You won or 
 Tie`
 
+`Also, sound effects added`
+
 `User's choice is displayed on Left and Computer's Choice is displayed on right`
+
+`Then, user gets option to PLAY AGAIN or EXIT GAME`
+
 
 ---
 
@@ -18,11 +23,12 @@ Tie`
 
 + Scissor beats paper
 
-
 ---
 
 
 ![](images/Screenshot1.png)
+
+---
 
 ### On choosing one of the three: 
 
@@ -32,9 +38,10 @@ Tie`
 ![](images/Screenshot2.png)
 
 ![](images/Screenshot3.png)
- 
-Also, user gets option to play again
 
+![](images/Screenshot4.png)
+ 
+---
 
 ### Tech Stack: 
 
