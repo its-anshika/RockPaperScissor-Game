@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Rock Paper Scissor</title>
+  </head>
+  <body>
+    <h2 class="text-center m-5">Rock Paper Scissor</h2>
+    <div class="container">
+      <div class="flex-box-rps" id="score-rps">
+        <p id="me">Your Score: <span id="score">0</span></p>
+        <p id="comp">Computer Score: <span id="botscore">0</span></p>
+      </div>
+      <div class="flex-box-rps" id="flex-box-rps">
+        <img
+          id="rock"
+          class="d-block"
+          src="../images/rock.png"
+          height="150"
+          weight="150"
+          onclick="rps(this)"
+        />
+        <img
+          class="d-block"
+          id="paper"
+          src="../images/paper.jpg"
+          height="150"
+          weight="150"
+          onclick="rps(this)"
+        />
+        <img
+          id="scissor"
+          class="d-block"
+          src="..images/scissors.png"
+          height="150"
+          weight="150"
+          onclick="rps(this)"
+        />
+      </div>
+    </div>
+    <div class="box" id="reset">
+      <button class="btn btn-warning" id="play">Play Again</button>
+      <button class="btn btn-success" id="exit">Exit Game</button>
+    </div>
+    <div class="container text-center about">
+      <h4>About Online Rock Paper Scissor</h4>
+      <p1>
+        Play the original rock paper scissor game online. Go up against our
+        computer robot and decide rock, paper or scissors. Rock, paper, &
+        scissor is a classic game that has been around for decades. You can
+        entertain yourself virtually for hours with this game. It's also helpful
+        for making important descions based upon the outcome of winning or
+        losing each game.
+      </p1>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+  </body>
+</html>
