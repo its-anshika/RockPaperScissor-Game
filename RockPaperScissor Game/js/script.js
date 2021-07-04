@@ -43,7 +43,7 @@ function frontend(msg, user, bot) {
     var msgdiv = document.createElement('div');
     var botdiv = document.createElement('div');
 
-    const sound = new Audio('sounds/aww.mp3');
+    const sound = new Audio('../sounds/aww.mp3');
     sound.play();
 
     userdiv.innerHTML = "<img src='" + imgdb[user] + "' height=150 weight=150 style='box-shadow:0px 10px 30px blue'>"
