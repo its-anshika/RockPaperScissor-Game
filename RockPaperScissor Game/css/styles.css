@@ -1,4 +1,11 @@
-.flex-box,
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(210, 224, 241, 0.897),
+    rgb(131, 147, 240)
+  );
+}
+
 .flex-box-rps {
   display: flex;
   padding: 10px;
@@ -6,15 +13,101 @@
   border-collapse: collapse;
   align-items: center;
   flex-wrap: wrap;
-  height: 250px;
-  border: 3px solid black;
+  height: 340px;
+}
+#flex-box-rps {
+  box-shadow: 0px 10px 30px black;
+  background-color: white;
+}
+.about {
+  box-shadow: 0px 10px 30px black;
+  border-radius: 10px;
+  background-color: rgba(210, 224, 241, 0.897);
 }
 .container {
   width: 75%;
   margin: 0 auto;
 }
 h2 {
-  font-size: 50px;
+  letter-spacing: 5px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin: 0 auto;
+  font-size: 60px;
   font-color: black;
-  text-shadow: 2px 2px red;
+  text-shadow: 2px 1px red;
+  animation: load ease-in-out 1s;
+}
+@keyframes load {
+  from {
+    opacity: 0;
+    letter-spacing: -1px;
+  }
+  to {
+    opacity: 1;
+    letter-spacing: 5px;
+  }
+}
+.box {
+  display: flex;
+  justify-content: space-evenly;
+  border-collapse: collapse;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+#score-rps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 30px;
+  height: 50px;
+  padding-top: 0px;
+  text-align: center;
+}
+#me {
+  background-color: rgb(131, 235, 217);
+  animation: load1 ease-in-out 1.7s;
+}
+#comp {
+  background-color: rgb(236, 142, 154);
+  animation: load1 ease-in-out 1.7s;
+}
+.d-block {
+  animation: load2 ease-in-out 0.7s;
+}
+@keyframes load1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes load2 {
+  from {
+    height: 0;
+  }
+  to {
+    height: 150px;
+  }
+}
+p {
+  color: black;
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 601px) {
+  .flex-box-rps {
+    height: 340px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flex-box-rps {
+    height: 500px;
+  }
+  #score-rps {
+    height: 100px;
+  }
 }
